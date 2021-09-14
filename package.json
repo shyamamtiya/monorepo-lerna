@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "customize-cra": "^1.0.0",
+    "lerna": "^4.0.0",
+    "react-app-rewired": "^2.1.8"
+  },
+  "scripts": {
+    "start": "lerna run start --scope=react-app-example"
+  }
+}
